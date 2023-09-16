@@ -147,7 +147,6 @@ const ingredients = (obj) => {
   const nutritionFacts = [carb, fat, protein];
   return nutritionFacts
 }
-console.log(ingredients)
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
@@ -168,7 +167,12 @@ var user = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+let updatedUser = {
+  ...user,
+  name: 'Bryan G. Smith',
+  email: 'bryan.smith@devmounta.in'
+}
+console.log(updatedUser)
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
