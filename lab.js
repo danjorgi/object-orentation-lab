@@ -142,8 +142,12 @@ const totalPopulation = (states) => {
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
-
+const ingredients = (obj) => {
+  const {carb, fat, protein} = obj;
+  const nutritionFacts = [carb, fat, protein];
+  return nutritionFacts
+}
+console.log(ingredients)
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
