@@ -72,7 +72,6 @@ favoriteThings.show = 'Futurama';
 
 favoriteThings.food = 'Chicken Nuggets';
 favoriteThings.book = 'Harry Potter';
-console.log(favoriteThings);
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
@@ -90,7 +89,12 @@ var carDetails = {
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
 
-//Code Here
+const {color: carColor} = carDetails;
+const {make: carMake} = carDetails;
+const {model: carModel} = carDetails;
+const {year: carYear} = carDetails;
+
+console.log(carColor)
 
 
 
