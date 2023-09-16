@@ -94,8 +94,6 @@ const {make: carMake} = carDetails;
 const {model: carModel} = carDetails;
 const {year: carYear} = carDetails;
 
-console.log(carColor)
-
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -107,7 +105,7 @@ console.log(carColor)
 */
 
 function greeting( obj ) {
-  //Code Here
+  const {firstName, lastName, title} = obj;
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
