@@ -61,7 +61,9 @@ const favoriteThings = {
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
-//Code here
+favoriteThings.car = 'Honda Civic Type-R'
+favoriteThings.show = 'Futurama'
+console.log(favoriteThings)
 
 
 /*
