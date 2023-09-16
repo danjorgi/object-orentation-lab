@@ -5,8 +5,8 @@
 */
 
 const me = {
-  name: 'Dan';
-  age: '30';
+  name: 'Dan',
+  age: 30,
 }
 
 
@@ -19,10 +19,10 @@ const me = {
 //and goodBoy/goodGirl (a boolean).
 
 const dog = {
-  name: 'Lily'
-  color: 'Brown'
-  age: 4
-  goodGirl: true
+  name: 'Lily',
+  color: 'Brown',
+  age: 4,
+  goodGirl: true,
 }
 
 
@@ -30,7 +30,7 @@ const dog = {
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
-//Code here
+console.log(dog.name);
 
 
 
