@@ -172,7 +172,7 @@ let updatedUser = {
   name: 'Bryan G. Smith',
   email: 'bryan.smith@devmounta.in'
 }
-console.log(updatedUser)
+
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
@@ -180,8 +180,7 @@ console.log(updatedUser)
   Using the user object above, delete the users age off of the object.
 */
 
-//Code Here
-
+delete user.age
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
