@@ -246,7 +246,23 @@ wiz1.castSpell();
     to be newPrice.
 */
 
-//Code Here
+class Phone {
+  constructor (brand, model, storage, color, price, sold) {
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false;
+  }
+  sell() {
+    this.sold = true
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+  changePrice(newPrice) {
+    this.price = newPrice;
+  }
+}
 
   
 /*
@@ -259,7 +275,10 @@ wiz1.castSpell();
     - price: number
 */
 
-//Code Here
+const phone1 = new Phone('Samsung', 'Galaxy', 25, 'black', 1000);
+const phone2 = new Phone('Apple', 'iPhone 13', 10, 'white', 1100);
+const phone3 = new Phone('Google', 'Pixel', 15, 'blue', 900)
+
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -268,7 +287,8 @@ wiz1.castSpell();
   Then console.log that object to see the price change
 */ 
 
-//Code Here 
+phone1.changePrice(900);
+console.log(phone1);
 
 
 /*
@@ -277,8 +297,8 @@ wiz1.castSpell();
   Print the value of that phone's sell property to make sure it's been changed to true
 */
 
-//Code Here 
-
+phone3.sell();
+console.log(phone3.sold);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
