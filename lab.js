@@ -6,7 +6,7 @@
 
 const me = {
   name: 'Dan';
-  age: '30'
+  age: '30';
 }
 
 
@@ -18,7 +18,12 @@ const me = {
 //name (a string), color (a string), age (a number),
 //and goodBoy/goodGirl (a boolean).
 
-//Code here
+const dog = {
+  name: 'Lily'
+  color: 'Brown'
+  age: 4
+  goodGirl: true
+}
 
 
 
